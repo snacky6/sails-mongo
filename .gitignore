@@ -45,3 +45,5 @@ nbproject
 .tmp
 dump.rdb
 .waterline
+
+package-lock\.json
