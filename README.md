@@ -1,7 +1,7 @@
 [![](https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67)](http://sailsjs.com)
 
 # sails-mongo
-[![npm version](https://badge.fury.io/js/sails-mongo.svg)](http://badge.fury.io/js/sails-mongo)
+[![npm version](https://badge.fury.io/js/%40mobileit%2Fsails-mongo.svg)](https://badge.fury.io/js/%40mobileit%2Fsails-mongo)
 
 Sails.js/Waterline adapter for MongoDB.
 
@@ -61,7 +61,7 @@ In production, use config/env/production.js and/or environment variables.
 > For more about getting your Sails app ready for production, see [**Concepts > Deployment**](http://sailsjs.com/documentation/concepts/deployment).
 
 
-## Bugs &nbsp; [![NPM version](https://badge.fury.io/js/sails-mongo.svg)](http://npmjs.com/package/sails-mongo)
+## Bugs &nbsp; [![npm version](https://badge.fury.io/js/%40mobileit%2Fsails-mongo.svg)](https://www.npmjs.com/package/@mobileit/sails-mongo)
 
 To report a bug, [click here](http://sailsjs.com/bugs).
 
@@ -119,6 +119,16 @@ MONGODB_URI=mongodb://mongodbserver01:27017,mongodbserver02:27017,mongodbserver0
 
 The previous configuration will set three MongoDB servers, named `mongodbserver01`, `mongodbserver02` and `mongodbserver03`, all using port `27017`, connecting to the `my-app-database` and using `my-replica-set-name` as the replica set. It also sets the `readPreference` to `nearest` and allows slave connections, with `slaveOk` set to `true`
 
+
+#### What about a MongoDB Atlas cluster?
+
+For example:
+
+```bash
+MONGODB_URI=mongodb://user:password@mycluster0-shard-00-00.mongodb.net:27017,mycluster0-shard-00-01.mongodb.net:27017,mycluster0-shard-00-02.mongodb.net:27017/mydatabase?ssl=true&replicaSet=Mycluster0-shard-0&authSource=admin&retryWrites=true
+```
+
+This configuration is almost the same as the previous one but this time you'll have to set `ssl=true` and `authSource=admin` to connect to a MongoDB Atlas cluster.
 
 
 ## Legacy usage
@@ -189,7 +199,7 @@ module.exports.adapters = {
 
 Please observe the guidelines and conventions laid out in the [Sails project contribution guide](http://sailsjs.com/documentation/contributing) when opening issues or submitting pull requests.
 
-[![NPM](https://nodei.co/npm/sails-mongo.png?downloads=true)](http://npmjs.com/package/sails-mongo)
+[![NPM](https://nodei.co/npm/@mobileit/sails-mongo.png?mini=true)](http://npmjs.com/package/@mobileit/sails-mongo)
 
 
 #### Special thanks

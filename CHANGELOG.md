@@ -1,5 +1,10 @@
 # Sails-Mongo Changelog
 
+### 0.12.3
+
+* [ENHANCEMENT] Add support for MongoDB Atlas URL and SCRAM authentication
+* [UPGRADE] Upgrade MongoDB driver to 2.2.36. Thanks [@luislobo](https://github.com/luislobo).
+
 ### 0.12.2
 
 * [INTERNAL] Bump and pin dependency versions

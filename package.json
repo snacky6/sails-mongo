@@ -1,5 +1,5 @@
 {
-  "name": "sails-mongo",
+  "name": "@mobileit/sails-mongo",
   "version": "0.12.3",
   "description": "Mongo DB adapter for Sails.js",
   "main": "./lib/adapter.js",
@@ -15,32 +15,17 @@
     "sails"
   ],
   "contributors": [
-    {
-      "name": "Cody Stoltman",
-      "email": "particlebanana@gmail.com"
-    },
-    {
-      "name": "Zolmeister",
-      "email": "zolikahan@gmail.com"
-    },
-    {
-      "name": "Robin Persson",
-      "email": "rprssn@gmail.com"
-    },
-    {
-      "name": "Ted Kulp",
-      "email": "github@wishy.org"
-    },
-    {
-      "name": "Andy Pham",
-      "email": "andyphamhung@gmail.com"
-    }
+    "Cody Stoltman <particlebanana@gmail.com>",
+    "Zolmeister <zolikahan@gmail.com>",
+    "Robin Persson <rprssn@gmail.com>",
+    "Ted Kulp <github@wishy.org>",
+    "Andy Pham <andyphamhung@gmail.com>",
+    "Valentin Guillois <v.guillois@mobileit.fr>"
   ],
   "license": "MIT",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mongo.git"
+    "url": "git://github.com/snacky6/sails-mongo.git"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
@@ -65,5 +50,14 @@
     "features": [
       "cross-adapter"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/snacky6/sails-mongo/issues"
+  },
+  "homepage": "https://github.com/snacky6/sails-mongo#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
